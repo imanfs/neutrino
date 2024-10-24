@@ -47,7 +47,7 @@ The batch size was chosen as 256 as the data points are in the hundreds of thous
 
 A kernel stride of (2,2) produced lower accuracy on both training/validation and on the test data than the default stride of (1,1), so it was kept to the default. 
 
-### Callbacks
+### Callbacks:
 
 If the validation loss did not become lower by a threshold value for 5 epochs, training was stopped to limit overtraining. 
 
