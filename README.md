@@ -105,7 +105,7 @@ As was seen previously, there are no $\nu_\tau$ events in any of the data files.
 
 As with the first task, the data is also heavily skewed with electron neutrino events making up 2% of the dataset. The same downsampling process was applied to this data, too. 
 
-# **Task 5:** $y = E_{\ell} /E_{\nu} $ algorithm
+# **Task 5:** $y = E_{\ell} /E_{\nu}$ algorithm
 
 A regression model was created to find values for the ratio of neutrino and lepton energies. 
 In this dataset, any data points with $E_{\nu} = 0$ were discarded to avoid dividing by 0.
