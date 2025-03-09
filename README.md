@@ -6,7 +6,7 @@ https://colab.research.google.com/drive/1u1ehI2L8-SA7FQMfymn6mgtScpc8IH9m?usp=sh
 
 # **Inspecting the dataset**
 
-The first thing I want to do before starting this project is analyse the quality of the data. Especially after reading many resources for this code, I found that almost always a model can never achieve desirable accuracy unless the data it is trained on is of good quality. This means there is preferably a good amount of data (at least thousands), and the data is not biased toward certain variables. 
+The first thing I want to do before starting this project is analyse the quality of the data. A model can't adequately predict underlying patterns unless the data it is trained on is of good quality. This means there is preferably a good amount of data (at least thousands), and the data is not biased toward certain variables. 
 I would like to clarify that the proportions of different variables are more or less the same for all the data files, even though below I only analyse this on one file. 
 
 ## Unskewing the data
