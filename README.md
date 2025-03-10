@@ -93,11 +93,11 @@ I did not create a test set for RES events as I wanted to compare two ends of th
 #### QE vs. DIS events
 The QE events set had much higher accuracies over several runs (87%-91%) vs DIS (63%-70%). DIS events make up over half of the dataset compared to QE which makes up only ~12% so it makes sense that the overall accuracy of the model on an unprocessed test file is closer to the DIS accuracy range.  
 
-#### High vs low neutrino energy
+#### High vs low neutrino energy
 
 There was no significant difference in model performance for this variable. This is possibly due to the neutrino's characteristic low mass and therefore low impact on interactions, meaning the images would remain largely unaffected by the neutrino energy. 
 
-#### High vs low lepton energy
+#### High vs low lepton energy
 
 There was a significant difference in how the model performed for these two categories (high lepton energy was always at least 10% higher), possibly due to the fact that leptons are some of the heavier particles within these collisions (relative to neutrinos) so they can affect the interactions within the simulator. The model performed better on high lepton energy events, and as with the QE vs DIS events there is a much lower incidence of these events in the dataset, hence the lower overall accuracy. 
 
