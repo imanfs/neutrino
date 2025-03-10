@@ -4,7 +4,7 @@ In this project, I create a CNN image classifier for neutrino interactions withi
 
 The variation in the probability of measuring a neutrino’s flavour as it propagates through space is called neutrino oscillation, and NoVA’s primary goal was to detect $\nu_{\mu}$ to $\nu_{e}$ oscillation. Each event in the simulated dataset has two images, corresponding to the $x \times z$ and $y \times z$ projections of the tracks of particles in the detector:
 
-<img src="figs/image2.png" alt="Example neutrino event." width="250"> 
+<img src="figs/image2.png" alt="Example neutrino event." width="400"> 
 
 I created several dual-input convolutional neural network classifiers to classify these interactions as well as regression models to predict metavariables such as particle energy. This code was written using Google Colab with a GPU, and you can use [this link](https://colab.research.google.com/drive/1u1ehI2L8-SA7FQMfymn6mgtScpc8IH9m?usp=sharing) to access and run the code on Colab or run `neutrino_classifier.py` directly from the terminal. 
 
